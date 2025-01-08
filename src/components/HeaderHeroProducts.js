@@ -1,48 +1,10 @@
 import React from "react";
-import { Container, Row, Col, Button, Navbar, Nav, Card } from "react-bootstrap";
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../images/logo.png';
+import { Container, Row, Col, Button } from "react-bootstrap";
 import rightbanner from "../images/banner.png";
 
 const HeaderHeroProducts = () => {
   return (
     <div className="headerheroproduct">
-      {/* Header Section */}
-      <Navbar expand="lg" className="py-3">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img
-              src= {logo} // Replace with actual logo URL
-              alt="Logo"
-              className="logo"
-            />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link href="#about">About Us</Nav.Link>
-              <NavDropdown title="Products" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-              <Nav.Link href="#blog">Blog</Nav.Link>
-              <Nav.Link href="#team">Our Team</Nav.Link>
-              <Nav.Link href="#contact">Contact Us</Nav.Link>
-              <Button className=" btn download-brocher">
-                Download Brochure
-              </Button>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-
       {/* Hero Section */}
       <section className="hero-section">
         <Container>

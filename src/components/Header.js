@@ -52,7 +52,7 @@
 import React from "react";
 import { Container, Navbar, Nav, Button, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import logo from '../images/logo.png';
+import logo from '../images/logo.svg';
 
 const Header = () => {
   return (
@@ -70,6 +70,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
+            <Nav.Link as={Link} to="/home">Home</Nav.Link>
               <Nav.Link as={Link} to="/about">About Us</Nav.Link>
               <NavDropdown title="Products" id="basic-nav-dropdown">
                 <NavDropdown.Item as={Link} to="/products/action">Action</NavDropdown.Item>

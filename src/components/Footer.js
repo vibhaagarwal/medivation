@@ -1,6 +1,6 @@
 import React from "react";
 import {Col } from "react-bootstrap";
-import footerlogo from "../images/footer logo.png"
+import footerlogo from "../images/footer-logo.png"
 
 const Footer = () => {
   return (
@@ -9,7 +9,6 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-logo-section">
           <img src={footerlogo} alt ="footer-logo" />
-          <p className="footer-tagline">Achieving Possibilities</p>
           <p className="footer-address">
             Lane no 6,<br />
             SIDCO Industrial Complex, Bari Brahmna,<br />
@@ -18,7 +17,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-links">
-          <div className="links-section">
+          {/* <div className="links-section">
             <h3>USEFUL LINKS</h3>
             <ul>
               <li>About Us</li>
@@ -26,7 +25,7 @@ const Footer = () => {
               <li>Our Team</li>
               <li>Contact</li>
             </ul>
-          </div>
+          </div> */}
           <div className="links-section">
             <h3>PRODUCTS</h3>
             <ul>
